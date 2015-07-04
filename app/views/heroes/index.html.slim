@@ -1,0 +1,6 @@
+h2 Heroes
+
+ul
+    - @heroes.each do |hero|
+        li
+            = image_tag "/assets/#{hero.icon}", alt: "#{hero.name}"

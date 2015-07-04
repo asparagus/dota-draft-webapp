@@ -7,6 +7,12 @@ Master::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
+  resources :heroes, only: [:index]
+  resources :items, only: [:index]
+
+  get 'heroes/update_all'
+  get 'items/update_all'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

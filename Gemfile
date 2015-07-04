@@ -1,10 +1,16 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
+gem 'rails', '4.2'
 
 #Parser
 gem 'slim-rails'
+
+# Font Awesome Icons
+gem 'font-awesome-rails'
+
+# JSON Parser
+gem 'json'
 
 group :development do
   gem 'annotate'
@@ -13,6 +19,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
 
+  gem 'yard'
   gem 'rails_layout'
 end
 
@@ -68,3 +75,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
