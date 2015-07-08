@@ -119,3 +119,14 @@ int_heroes =
   "Visage",
   "Winter Wyvern"
 ]
+
+arrays = [str_heroes, agi_heroes, int_heroes]
+attribute = 0
+arrays.each do |heroes|
+  heroes.each do |hero_name|
+    hero = Hero.where(name: hero_name).first
+    hero.main_attribute = attribute
+    hero.save
+  end
+  attribute += 1
+end
