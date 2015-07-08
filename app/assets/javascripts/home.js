@@ -26,6 +26,19 @@ function initializeDnD() {
     });
 }
 
+function initializeQuery() {
+    $('#query').on('input', updateSprites);
+
+    $('#query').on('keydown', function(e) {
+        if (e.which == 9) {
+            $('#query').val($('#query-hint').attr('original-value'));
+            $('#query-hint').val($('#query-hint').attr('original-value'));
+            updateSprites();
+            e.preventDefault();
+        }
+    });
+}
+
 function updateSprites() {
     var query = $('#query').val();
     var lowerQuery = query.toLowerCase();
@@ -55,22 +68,4 @@ function updateSprites() {
         $('#query-hint').val(query);
         $('#query-hint').attr('original-value', query);
     }
-}
-
-function initializeQuery() {
-    $('#query').on('input', updateSprites);
-
-    $('#query').on('keydown', function(e) {
-        if (e.which == 9) {
-            $('#query').val($('#query-hint').attr('original-value'));
-            $('#query-hint').val($('#query-hint').attr('original-value'));
-            updateSprites();
-            e.preventDefault();
-        }
-    });
-    /*$('#query').typeahead(null, {
-      name: 'names',
-      limit: 10,
-      source: substringMatcher(gon.names)
-    });*/
 }
