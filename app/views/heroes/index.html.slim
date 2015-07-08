@@ -6,22 +6,22 @@ h2 Heroes
 .row
     .col-sm-4.col-xs-6
         h3 
-            = image_tag "/assets/Icon_Str.png"
+            = image_tag src_path("Icon_Str.png")
             | Strength
         - @str_heroes.each do |hero|
             span
-                img.clickable src="#{src_path(hero.icon)}" alt="#{hero.name}" title="#{hero.name}" data-toggle="tooltip" data-placement="top" data-href="/heroes/#{hero.id}"
+                div class="sprite sprite-#{hero.icon} clickable" title="#{hero.name}" data-toggle="tooltip" data-placement="top" data-href="/heroes/#{hero.id}"
     .col-sm-4.col-xs-6
         h3 
-            = image_tag "/assets/Icon_Agi.png"
+            = image_tag src_path("Icon_Agi.png")
             | Agility
         - @agi_heroes.each do |hero|
             span
-                img.clickable src="#{src_path(hero.icon)}" alt="#{hero.name}" title="#{hero.name}" data-toggle="tooltip" data-placement="top" data-href="/heroes/#{hero.id}"
+                div class="sprite sprite-#{hero.icon} clickable" title="#{hero.name}" data-toggle="tooltip" data-placement="top" data-href="/heroes/#{hero.id}"
     .col-sm-4.col-xs-6
         h3 
-            = image_tag "/assets/Icon_Int.png"
+            = image_tag src_path("Icon_Int.png")
             | Intelligence
         - @int_heroes.each do |hero|
             span
-                img.clickable src="#{src_path(hero.icon)}" alt="#{hero.name}" title="#{hero.name}" data-toggle="tooltip" data-placement="top" data-href="/heroes/#{hero.id}"
+                div class="sprite sprite-#{hero.icon} clickable" title="#{hero.name}" data-toggle="tooltip" data-placement="top" data-href="/heroes/#{hero.id}"
