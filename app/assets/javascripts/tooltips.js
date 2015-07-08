@@ -1,6 +1,6 @@
 $(document).ready(initializeTooltips);
 $(document).on('page:load', initializeTooltips);
 
-function initialize() {
+function initializeTooltips() {
     $('[data-toggle="tooltip"]').tooltip();
 }
