@@ -1,0 +1,19 @@
+.draft
+{
+    font-size: 20px;
+    border: 1px dotted #333;
+    display: inline-block;
+    text-align: center;
+
+    width: 32px;
+    height: 32px;
+
+    background-color: #fff;
+    border-radius: 16px;
+
+    z-index: -1;
+}
+
+.draft::before { 
+    content: "?";
+}

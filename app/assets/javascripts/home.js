@@ -1,7 +1,30 @@
-$(document).ready(initializeQuery);
-$(document).on('page:load', initializeQuery);
+$(document).ready(initializeHome);
+$(document).on('page:load', initializeHome);
 
+function initializeHome() {
+    initializeQuery();
+    initializeDnD();
+}
 
+function initializeDnD() {
+    $('.sprite').draggable({
+        revert: "invalid",
+        zIndex: 100,
+        helper: "clone",
+        snap: '.droppable',
+        snapMode: 'inner',
+        start: function(e) { dragging = true; },
+        stop: function(e) { dragging = false; }
+    });
+
+    $('.draft').droppable({
+        hoverClass: "ui-state-highlight",
+        drop: function(event, ui) {
+            var name = ui.draggable.attr('data-original-title');
+            console.log(name);
+        }
+    });
+}
 function initializeQuery() {
     $('#query').on('input', function() {
         var query = $('#query').val();
@@ -14,6 +37,7 @@ function initializeQuery() {
 
             if(lowerName.includes(lowerQuery)) {
                 $(this).removeClass('disabled');
+                $(this).draggable('enable');
 
                 if(!hintSet && query.length > 0 && lowerName.startsWith(lowerQuery)) {
                     $('#query-hint').val(query + name.substring(query.length));
@@ -23,6 +47,7 @@ function initializeQuery() {
             }
             else {
                 $(this).addClass('disabled');
+                $(this).draggable('disable');
             }
         });
 
