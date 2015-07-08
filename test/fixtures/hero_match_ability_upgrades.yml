@@ -1,16 +1,14 @@
 # == Schema Information
 #
-# Table name: items
+# Table name: hero_match_ability_upgrades
 #
-#  id          :integer          not null, primary key
-#  dota_id     :integer
-#  name        :string
-#  created_at  :datetime
-#  updated_at  :datetime
-#  cost        :integer
-#  secret_shop :boolean
-#  side_shop   :boolean
-#  recipe      :boolean
+#  id            :integer          not null, primary key
+#  hero_match_id :integer
+#  ability_id    :integer
+#  level         :integer
+#  time          :integer
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

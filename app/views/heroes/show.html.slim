@@ -1,0 +1,15 @@
+.row
+    .col-lg-12
+        h2 Hero Details
+        img src="/assets/#{@hero.icon}" alt="#{@hero.name}"
+
+        h3 Hero Stats
+        p 
+            | Pick Rate: 
+            span
+                = @hero.pick_rate
+        p
+            | Win Rate: 
+            span
+                = @hero.win_rate
+

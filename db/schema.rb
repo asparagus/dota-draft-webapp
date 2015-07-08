@@ -11,7 +11,44 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150704211233) do
+ActiveRecord::Schema.define(version: 20150705072852) do
+
+  create_table "hero_match_ability_upgrades", force: :cascade do |t|
+    t.integer  "hero_match_id"
+    t.integer  "ability_id"
+    t.integer  "level"
+    t.integer  "time"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "hero_matches", force: :cascade do |t|
+    t.integer  "hero_id"
+    t.integer  "player_slot"
+    t.integer  "item_0"
+    t.integer  "item_1"
+    t.integer  "item_2"
+    t.integer  "item_3"
+    t.integer  "item_4"
+    t.integer  "item_5"
+    t.integer  "kills"
+    t.integer  "deaths"
+    t.integer  "assists"
+    t.integer  "leaver_status"
+    t.integer  "gold"
+    t.integer  "last_hits"
+    t.integer  "denies"
+    t.integer  "gpm"
+    t.integer  "xpm"
+    t.integer  "gold_spent"
+    t.integer  "hero_damage"
+    t.integer  "tower_damage"
+    t.integer  "hero_healing"
+    t.integer  "level"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.integer  "match_id"
+  end
 
   create_table "heroes", force: :cascade do |t|
     t.integer  "dota_id"
@@ -19,6 +56,7 @@ ActiveRecord::Schema.define(version: 20150704211233) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "icon"
+    t.integer  "main_attribute"
   end
 
   add_index "heroes", ["dota_id"], name: "index_heroes_on_dota_id"
