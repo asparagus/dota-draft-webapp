@@ -1,0 +1,15 @@
+html
+  head
+    title Dota Draft
+    = include_gon
+    = stylesheet_link_tag "application", params[:controller], :media => "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", params[:controller], "data-turbolinks-track" => true
+
+    = csrf_meta_tags
+  body
+    .container
+      .header
+        h3.text-muted.text-center Dota Draft
+      = yield 
+      .footer
+        p &copy; Ariel - 2015

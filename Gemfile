@@ -12,6 +12,9 @@ gem 'font-awesome-rails'
 # JSON Parser
 gem 'json'
 
+# Access Ruby Variables from Javascript
+gem 'gon'
+
 group :development do
   gem 'annotate'
   gem 'awesome_print'
