@@ -22,6 +22,7 @@ function initializeDnD() {
         hoverClass: "ui-state-highlight",
         drop: function(event, ui) {
             var name = ui.draggable.attr('data-original-title');
+            $(this).addClass(ui.draggable.attr('class'));
             console.log(name);
         }
     });

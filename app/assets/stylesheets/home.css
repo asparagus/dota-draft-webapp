@@ -23,4 +23,9 @@
     background-color: #fafafa;
     border-radius: 0px;
     border: 0px;
+    z-index: 1;
+}
+
+.draft::before { 
+    content: " ";
 }
