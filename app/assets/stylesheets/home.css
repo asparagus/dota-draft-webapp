@@ -17,3 +17,10 @@
 .draft::before { 
     content: "?";
 }
+
+.draft.sprite 
+{
+    background-color: #fafafa;
+    border-radius: 0px;
+    border: 0px;
+}

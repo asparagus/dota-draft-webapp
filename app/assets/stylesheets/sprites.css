@@ -8,7 +8,9 @@
 }
 
 .sprite.disabled {
-    background-image: url(https://dl.dropboxusercontent.com/u/70382015/Doto/spritesheet-grayscale.png);
+    filter: grayscale();
+    -webkit-filter: grayscale();
+    /*background-image: url(https://dl.dropboxusercontent.com/u/70382015/Doto/spritesheet-grayscale.png);*/
 }
 
 .sprite-Abaddon {

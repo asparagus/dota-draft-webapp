@@ -13,8 +13,9 @@ function initializeDnD() {
         helper: "clone",
         snap: '.droppable',
         snapMode: 'inner',
-        start: function(e) { dragging = true; },
-        stop: function(e) { dragging = false; }
+        stop: function(event) { 
+            $(event.toElement).one('click', function(e) { e.stopImmediatePropagation(); });
+        }
     });
 
     $('.draft').droppable({
