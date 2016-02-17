@@ -7,7 +7,7 @@
     z-index: 1;
 }
 
-.sprite.disabled {
+.sprite.gray, .sprite.disabled {
     filter: grayscale();
     -webkit-filter: grayscale();
     /*background-image: url(https://dl.dropboxusercontent.com/u/70382015/Doto/spritesheet-grayscale.png);*/

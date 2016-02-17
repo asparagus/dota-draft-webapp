@@ -8,13 +8,24 @@ function initializeHome() {
 
 function initializeDnD() {
     $('.sprite').draggable({
-        revert: "invalid",
+        revert: function(drop) {
+            if(!$(drop).hasClass('droppable')) {
+                $(this).removeClass('disabled');
+            }
+        },
         zIndex: 100,
         helper: "clone",
         snap: '.droppable',
         snapMode: 'inner',
-        stop: function(event) { 
+        opacity: 0.7,
+        start: function(event) {
+            $(this).addClass('disabled');
+        },
+        cancel: '.disabled',
+        stop: function(event) {
             $(event.toElement).one('click', function(e) { e.stopImmediatePropagation(); });
+            // $(this).removeClass('disabled');
+            // $(this).draggable('enable');
         }
     });
 
@@ -22,7 +33,12 @@ function initializeDnD() {
         hoverClass: "ui-state-highlight",
         drop: function(event, ui) {
             var name = ui.draggable.attr('data-original-title');
+            ui.draggable.addClass('disabled');
+
             $(this).addClass(ui.draggable.attr('class'));
+            $(this).removeClass('disabled');
+
+            // $(this).append(ui.draggable);
             console.log(name);
         }
     });
@@ -51,8 +67,7 @@ function updateSprites() {
         var lowerName = name.toLowerCase();
 
         if(lowerName.includes(lowerQuery)) {
-            $(this).removeClass('disabled');
-            $(this).draggable('enable');
+            $(this).removeClass('gray');
 
             if(!hintSet && query.length > 0 && lowerName.startsWith(lowerQuery)) {
                 $('#query-hint').val(query + name.substring(query.length));
@@ -61,8 +76,7 @@ function updateSprites() {
             }
         }
         else {
-            $(this).addClass('disabled');
-            $(this).draggable('disable');
+            $(this).addClass('gray');
         }
     });
 
