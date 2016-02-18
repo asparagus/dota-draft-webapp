@@ -1,9 +1,13 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2'
+gem 'rails', '4.2.0'
 
-#Parser
+
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+
+# User Slim for templates
 gem 'slim-rails'
 
 # Font Awesome Icons
@@ -29,6 +33,8 @@ end
 group :test, :development do
   # usamos SQLite para desarollo y testing
   gem 'sqlite3'
+  gem 'byebug',      '3.4.0'
+  gem 'spring',      '1.1.3'
 end
 
 group :production do
@@ -38,17 +44,9 @@ group :production do
   gem 'pg'
   # otro webserver mejor para producción
   #gem 'unicorn'
+  gem 'puma',           '2.11.1'
 end
 
-
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.2'
-
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-
-# Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -68,7 +66,7 @@ group :doc do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
