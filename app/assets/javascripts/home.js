@@ -15,7 +15,7 @@ function initializeTeams() {
 function initializeDnD() {
     $('.sprite').draggable({
         revert: function(drop) {
-            if(!$(drop).hasClass('droppable')) {
+            if(!$(drop).hasClass('droppable') || $(drop).attr('data-id') != $(this).attr('data-id')) {
                 $(this).removeClass('disabled');
             }
         },
@@ -36,7 +36,8 @@ function initializeDnD() {
     });
 
     $('.draft').droppable({
-        hoverClass: "ui-state-highlight",
+        acept: '.sprite',
+        hoverClass: 'ui-state-highlight',
         drop: function(event, ui) {
             var name = ui.draggable.attr('data-original-title');
             ui.draggable.addClass('disabled');
@@ -44,7 +45,8 @@ function initializeDnD() {
             $(this).addClass(ui.draggable.attr('class'));
             $(this).attr('data-id', ui.draggable.attr('data-id'));
             $(this).attr('data-sprite', ui.draggable.attr('data-sprite'));
-            $(this).removeClass('disabled');
+            $(this).removeClass('disabled')
+            $(this).droppable('disable');
 
             console.log(name);
             if ($(this).hasClass('pick')) {
@@ -62,6 +64,7 @@ function initializeDnD() {
             $(this).removeClass('sprite');
             $(this).removeAttr('data-id');
             $(this).removeAttr('data-sprite');
+            $(this).droppable('enable');
 
             if ($(this).hasClass('pick')) {
                 var arr = window.picks[$(this).attr('team')];
