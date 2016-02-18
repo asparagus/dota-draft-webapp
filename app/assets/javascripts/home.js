@@ -4,6 +4,12 @@ $(document).on('page:load', initializeHome);
 function initializeHome() {
     initializeQuery();
     initializeDnD();
+    initializeTeams();
+}
+
+function initializeTeams() {
+    window.picks = {'ally': [], 'enemy': []};
+    window.bans = {'ally': [], 'enemy': []};
 }
 
 function initializeDnD() {
@@ -36,10 +42,34 @@ function initializeDnD() {
             ui.draggable.addClass('disabled');
 
             $(this).addClass(ui.draggable.attr('class'));
+            $(this).attr('data-id', ui.draggable.attr('data-id'));
+            $(this).attr('data-sprite', ui.draggable.attr('data-sprite'));
             $(this).removeClass('disabled');
 
-            // $(this).append(ui.draggable);
             console.log(name);
+            if ($(this).hasClass('pick')) {
+                window.picks[$(this).attr('team')].push(ui.draggable.attr('data-id'));
+            } else {
+                window.bans[$(this).attr('team')].push(ui.draggable.attr('data-id'));
+            }
+        }
+    });
+    $('.draft').click(function() {
+        // Remove on click
+        if ($(this).hasClass('sprite')) {
+            var id = $(this).attr('data-id');
+            $('[data-id=' + id + ']').removeClass('disabled');
+            $(this).removeClass('sprite');
+            $(this).removeAttr('data-id');
+            $(this).removeAttr('data-sprite');
+
+            if ($(this).hasClass('pick')) {
+                var arr = window.picks[$(this).attr('team')];
+                arr.splice(arr.indexOf(id), 1);
+            } else {
+                var arr = window.bans[$(this).attr('team')];
+                arr.splice(arr.indexOf(id), 1);
+            }
         }
     });
 }

@@ -14,11 +14,12 @@
     z-index: -1;
 }
 
-.draft::before { 
+.draft:not(.sprite)
+{
     content: "?";
 }
 
-.draft.sprite 
+.draft.sprite
 {
     background-color: #fafafa;
     border-radius: 0px;
@@ -26,6 +27,17 @@
     z-index: 1;
 }
 
-.draft::before { 
-    content: " ";
+.draft.sprite:hover
+{
+    opacity: 0.5;
+}
+
+body
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

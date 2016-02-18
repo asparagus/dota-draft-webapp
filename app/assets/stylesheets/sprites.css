@@ -13,450 +13,450 @@
     /*background-image: url(https://dl.dropboxusercontent.com/u/70382015/Doto/spritesheet-grayscale.png);*/
 }
 
-.sprite-Abaddon {
+[data-sprite="Abaddon"] {
     background-position: -5px -5px;
 }
 
-.sprite-Alchemist {
+[data-sprite="Alchemist"] {
     background-position: -47px -5px;
 }
 
-.sprite-Ancient_Apparition {
+[data-sprite="Ancient_Apparition"] {
     background-position: -89px -5px;
 }
 
-.sprite-Anti-Mage {
+[data-sprite="Anti-Mage"] {
     background-position: -131px -5px;
 }
 
-.sprite-Axe {
+[data-sprite="Axe"] {
     width: 30px;
     height: 30px;
     background-position: -173px -5px;
 }
 
-.sprite-Bane {
+[data-sprite="Bane"] {
     background-position: -213px -5px;
 }
 
-.sprite-Batrider {
+[data-sprite="Batrider"] {
     background-position: -255px -5px;
 }
 
-.sprite-Beastmaster {
+[data-sprite="Beastmaster"] {
     background-position: -297px -5px;
 }
 
-.sprite-Bloodseeker {
+[data-sprite="Bloodseeker"] {
     background-position: -339px -5px;
 }
 
-.sprite-Bounty_Hunter {
+[data-sprite="Bounty_Hunter"] {
     background-position: -381px -5px;
 }
 
-.sprite-Brewmaster {
+[data-sprite="Brewmaster"] {
     background-position: -5px -47px;
 }
 
-.sprite-Bristleback {
+[data-sprite="Bristleback"] {
     background-position: -47px -47px;
 }
 
-.sprite-Broodmother {
+[data-sprite="Broodmother"] {
     width: 27px;
     height: 31px;
     background-position: -89px -47px;
 }
 
-.sprite-Centaur_Warrunner {
+[data-sprite="Centaur_Warrunner"] {
     background-position: -126px -47px;
 }
 
-.sprite-Chaos_Knight {
+[data-sprite="Chaos_Knight"] {
     background-position: -168px -47px;
 }
 
-.sprite-Chen {
+[data-sprite="Chen"] {
     background-position: -210px -47px;
 }
 
-.sprite-Clinkz {
+[data-sprite="Clinkz"] {
     background-position: -252px -47px;
 }
 
-.sprite-Clockwerk {
+[data-sprite="Clockwerk"] {
     background-position: -294px -47px;
 }
 
-.sprite-Crystal_Maiden {
+[data-sprite="Crystal_Maiden"] {
     background-position: -336px -47px;
 }
 
-.sprite-Dark_Seer {
+[data-sprite="Dark_Seer"] {
     background-position: -378px -47px;
 }
 
-.sprite-Dazzle {
+[data-sprite="Dazzle"] {
     background-position: -5px -89px;
 }
 
-.sprite-Death_Prophet {
+[data-sprite="Death_Prophet"] {
     width: 30px;
     height: 32px;
     background-position: -47px -89px;
 }
 
-.sprite-Disruptor {
+[data-sprite="Disruptor"] {
     background-position: -87px -89px;
 }
 
-.sprite-Doom {
+[data-sprite="Doom"] {
     background-position: -129px -89px;
 }
 
-.sprite-Dragon_Knight {
+[data-sprite="Dragon_Knight"] {
     background-position: -171px -89px;
 }
 
-.sprite-Drow_Ranger {
+[data-sprite="Drow_Ranger"] {
     background-position: -213px -89px;
 }
 
-.sprite-Earth_Spirit {
+[data-sprite="Earth_Spirit"] {
     background-position: -255px -89px;
 }
 
-.sprite-Earthshaker {
+[data-sprite="Earthshaker"] {
     background-position: -297px -89px;
 }
 
-.sprite-Elder_Titan {
+[data-sprite="Elder_Titan"] {
     background-position: -339px -89px;
 }
 
-.sprite-Ember_Spirit {
+[data-sprite="Ember_Spirit"] {
     background-position: -381px -89px;
 }
 
-.sprite-Enchantress {
+[data-sprite="Enchantress"] {
     background-position: -5px -131px;
 }
 
-.sprite-Enigma {
+[data-sprite="Enigma"] {
     background-position: -47px -131px;
 }
 
-.sprite-Faceless_Void {
+[data-sprite="Faceless_Void"] {
     background-position: -89px -131px;
 }
 
-.sprite-Gyrocopter {
+[data-sprite="Gyrocopter"] {
     background-position: -131px -131px;
 }
 
-.sprite-Huskar {
+[data-sprite="Huskar"] {
     background-position: -173px -131px;
 }
 
-.sprite-Invoker {
+[data-sprite="Invoker"] {
     background-position: -215px -131px;
 }
 
-.sprite-Io {
+[data-sprite="Io"] {
     background-position: -257px -131px;
 }
 
-.sprite-Jakiro {
+[data-sprite="Jakiro"] {
     background-position: -299px -131px;
 }
 
-.sprite-Juggernaut {
+[data-sprite="Juggernaut"] {
     background-position: -341px -131px;
 }
 
-.sprite-Keeper_of_the_Light {
+[data-sprite="Keeper_of_the_Light"] {
     background-position: -383px -131px;
 }
 
-.sprite-Kunkka {
+[data-sprite="Kunkka"] {
     background-position: -5px -173px;
 }
 
-.sprite-Legion_Commander {
+[data-sprite="Legion_Commander"] {
     background-position: -47px -173px;
 }
 
-.sprite-Leshrac {
+[data-sprite="Leshrac"] {
     background-position: -89px -173px;
 }
 
-.sprite-Lich {
+[data-sprite="Lich"] {
     background-position: -131px -173px;
 }
 
-.sprite-Lifestealer {
+[data-sprite="Lifestealer"] {
     background-position: -173px -173px;
 }
 
-.sprite-Lina {
+[data-sprite="Lina"] {
     background-position: -215px -173px;
 }
 
-.sprite-Lion {
+[data-sprite="Lion"] {
     background-position: -257px -173px;
 }
 
-.sprite-Lone_Druid {
+[data-sprite="Lone_Druid"] {
     background-position: -299px -173px;
 }
 
-.sprite-Luna {
+[data-sprite="Luna"] {
     background-position: -341px -173px;
 }
 
-.sprite-Lycan {
+[data-sprite="Lycan"] {
     background-position: -383px -173px;
 }
 
-.sprite-Magnus {
+[data-sprite="Magnus"] {
     background-position: -5px -215px;
 }
 
-.sprite-Medusa {
+[data-sprite="Medusa"] {
     background-position: -47px -215px;
 }
 
-.sprite-Meepo {
+[data-sprite="Meepo"] {
     background-position: -89px -215px;
 }
 
-.sprite-Mirana {
+[data-sprite="Mirana"] {
     background-position: -131px -215px;
 }
 
-.sprite-Morphling {
+[data-sprite="Morphling"] {
     background-position: -173px -215px;
 }
 
-.sprite-Naga_Siren {
+[data-sprite="Naga_Siren"] {
     background-position: -215px -215px;
 }
 
-.sprite-Nature_s_Prophet {
+[data-sprite="Nature_s_Prophet"] {
     background-position: -257px -215px;
 }
 
-.sprite-Necrophos {
+[data-sprite="Necrophos"] {
     background-position: -299px -215px;
 }
 
-.sprite-Night_Stalker {
+[data-sprite="Night_Stalker"] {
     background-position: -341px -215px;
 }
 
-.sprite-Nyx_Assassin {
+[data-sprite="Nyx_Assassin"] {
     background-position: -383px -215px;
 }
 
-.sprite-Ogre_Magi {
+[data-sprite="Ogre_Magi"] {
     background-position: -5px -257px;
 }
 
-.sprite-Omniknight {
+[data-sprite="Omniknight"] {
     background-position: -47px -257px;
 }
 
-.sprite-Oracle {
+[data-sprite="Oracle"] {
     background-position: -89px -257px;
 }
 
-.sprite-Outworld_Devourer {
+[data-sprite="Outworld_Devourer"] {
     background-position: -131px -257px;
 }
 
-.sprite-Phantom_Assassin {
+[data-sprite="Phantom_Assassin"] {
     background-position: -173px -257px;
 }
 
-.sprite-Phantom_Lancer {
+[data-sprite="Phantom_Lancer"] {
     background-position: -215px -257px;
 }
 
-.sprite-Phoenix {
+[data-sprite="Phoenix"] {
     background-position: -257px -257px;
 }
 
-.sprite-Puck {
+[data-sprite="Puck"] {
     background-position: -299px -257px;
 }
 
-.sprite-Pudge {
+[data-sprite="Pudge"] {
     background-position: -341px -257px;
 }
 
-.sprite-Pugna {
+[data-sprite="Pugna"] {
     background-position: -383px -257px;
 }
 
-.sprite-Queen_of_Pain {
+[data-sprite="Queen_of_Pain"] {
     background-position: -5px -299px;
 }
 
-.sprite-Razor {
+[data-sprite="Razor"] {
     background-position: -47px -299px;
 }
 
-.sprite-Riki {
+[data-sprite="Riki"] {
     background-position: -89px -299px;
 }
 
-.sprite-Rubick {
+[data-sprite="Rubick"] {
     background-position: -131px -299px;
 }
 
-.sprite-Sand_King {
+[data-sprite="Sand_King"] {
     background-position: -173px -299px;
 }
 
-.sprite-Shadow_Demon {
+[data-sprite="Shadow_Demon"] {
     background-position: -215px -299px;
 }
 
-.sprite-Shadow_Fiend {
+[data-sprite="Shadow_Fiend"] {
     background-position: -257px -299px;
 }
 
-.sprite-Shadow_Shaman {
+[data-sprite="Shadow_Shaman"] {
     background-position: -299px -299px;
 }
 
-.sprite-Silencer {
+[data-sprite="Silencer"] {
     background-position: -341px -299px;
 }
 
-.sprite-Skywrath_Mage {
+[data-sprite="Skywrath_Mage"] {
     background-position: -383px -299px;
 }
 
-.sprite-Slardar {
+[data-sprite="Slardar"] {
     background-position: -5px -341px;
 }
 
-.sprite-Slark {
+[data-sprite="Slark"] {
     background-position: -47px -341px;
 }
 
-.sprite-Sniper {
+[data-sprite="Sniper"] {
     background-position: -89px -341px;
 }
 
-.sprite-Spectre {
+[data-sprite="Spectre"] {
     background-position: -131px -341px;
 }
 
-.sprite-Spirit_Breaker {
+[data-sprite="Spirit_Breaker"] {
     background-position: -173px -341px;
 }
 
-.sprite-Storm_Spirit {
+[data-sprite="Storm_Spirit"] {
     background-position: -215px -341px;
 }
 
-.sprite-Sven {
+[data-sprite="Sven"] {
     background-position: -257px -341px;
 }
 
-.sprite-Techies {
+[data-sprite="Techies"] {
     width: 30px;
     height: 31px;
     background-position: -299px -341px;
 }
 
-.sprite-Templar_Assassin {
+[data-sprite="Templar_Assassin"] {
     background-position: -339px -341px;
 }
 
-.sprite-Terrorblade {
+[data-sprite="Terrorblade"] {
     background-position: -381px -341px;
 }
 
-.sprite-Tidehunter {
+[data-sprite="Tidehunter"] {
     background-position: -5px -383px;
 }
 
-.sprite-Timbersaw {
+[data-sprite="Timbersaw"] {
     background-position: -47px -383px;
 }
 
-.sprite-Tinker {
+[data-sprite="Tinker"] {
     background-position: -89px -383px;
 }
 
-.sprite-Tiny {
+[data-sprite="Tiny"] {
     background-position: -131px -383px;
 }
 
-.sprite-Treant_Protector {
+[data-sprite="Treant_Protector"] {
     background-position: -173px -383px;
 }
 
-.sprite-Troll_Warlord {
+[data-sprite="Troll_Warlord"] {
     background-position: -215px -383px;
 }
 
-.sprite-Tusk {
+[data-sprite="Tusk"] {
     background-position: -257px -383px;
 }
 
-.sprite-Undying {
+[data-sprite="Undying"] {
     background-position: -299px -383px;
 }
 
-.sprite-Ursa {
+[data-sprite="Ursa"] {
     background-position: -341px -383px;
 }
 
-.sprite-Vengeful_Spirit {
+[data-sprite="Vengeful_Spirit"] {
     background-position: -383px -383px;
 }
 
-.sprite-Venomancer {
+[data-sprite="Venomancer"] {
     background-position: -423px -5px;
 }
 
-.sprite-Viper {
+[data-sprite="Viper"] {
     background-position: -420px -47px;
 }
 
-.sprite-Visage {
+[data-sprite="Visage"] {
     background-position: -423px -89px;
 }
 
-.sprite-Warlock {
+[data-sprite="Warlock"] {
     background-position: -425px -131px;
 }
 
-.sprite-Weaver {
+[data-sprite="Weaver"] {
     background-position: -425px -173px;
 }
 
-.sprite-Windranger {
+[data-sprite="Windranger"] {
     background-position: -425px -215px;
 }
 
-.sprite-Winter_Wyvern {
+[data-sprite="Winter_Wyvern"] {
     background-position: -425px -257px;
 }
 
-.sprite-Witch_Doctor {
+[data-sprite="Witch_Doctor"] {
     background-position: -425px -299px;
 }
 
-.sprite-Wraith_King {
+[data-sprite="Wraith_King"] {
     background-position: -423px -341px;
 }
 
-.sprite-Zeus {
+[data-sprite="Zeus"] {
     background-position: -425px -383px;
 }
