@@ -7,7 +7,7 @@ Master::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
-  resources :heroes, only: [:index, :show]
+  resources :heroes, only: [:index, :show, :new, :create]
   resources :items, only: [:index]
   resources :matches, only: [:index]
 
