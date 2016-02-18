@@ -9,7 +9,19 @@ class HeroesController < ApplicationController
   end
 
   def show
+  end
 
+  def new
+    @hero = Hero.new
+  end
+
+  def create
+    @hero = Hero.new(hero_params)
+    if @hero.save
+      redirect_to @hero
+    else
+      render 'new'
+    end
   end
 
   private

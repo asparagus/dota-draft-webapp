@@ -1,0 +1,680 @@
+.sprite {
+    background-image: image-url("spritesheet.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+}
+
+.sprite.gray, .sprite.disabled {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    /*background-image: url(https://dl.dropboxusercontent.com/u/70382015/Doto/spritesheet-grayscale.png);*/
+}
+
+.sprite[data-sprite="Abaddon"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+.sprite[data-sprite="Alchemist"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -5px;
+}
+
+.sprite[data-sprite="Ancient_Apparition"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -5px;
+}
+
+.sprite[data-sprite="Anti-Mage"] {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -5px;
+}
+
+.sprite[data-sprite="Arc_Warden"] {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -5px;
+}
+
+.sprite[data-sprite="Axe"] {
+    width: 30px;
+    height: 30px;
+    background-position: -215px -5px;
+}
+
+.sprite[data-sprite="Bane"] {
+    width: 32px;
+    height: 32px;
+    background-position: -255px -5px;
+}
+
+.sprite[data-sprite="Batrider"] {
+    width: 32px;
+    height: 32px;
+    background-position: -297px -5px;
+}
+
+.sprite[data-sprite="Beastmaster"] {
+    width: 32px;
+    height: 32px;
+    background-position: -339px -5px;
+}
+
+.sprite[data-sprite="Bloodseeker"] {
+    width: 32px;
+    height: 32px;
+    background-position: -381px -5px;
+}
+
+.sprite[data-sprite="Bounty_Hunter"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -47px;
+}
+
+.sprite[data-sprite="Brewmaster"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -47px;
+}
+
+.sprite[data-sprite="Bristleback"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -47px;
+}
+
+.sprite[data-sprite="Broodmother"] {
+    width: 27px;
+    height: 31px;
+    background-position: -131px -47px;
+}
+
+.sprite[data-sprite="Centaur_Warrunner"] {
+    width: 32px;
+    height: 32px;
+    background-position: -168px -47px;
+}
+
+.sprite[data-sprite="Chaos_Knight"] {
+    width: 32px;
+    height: 32px;
+    background-position: -210px -47px;
+}
+
+.sprite[data-sprite="Chen"] {
+    width: 32px;
+    height: 32px;
+    background-position: -252px -47px;
+}
+
+.sprite[data-sprite="Clinkz"] {
+    width: 32px;
+    height: 32px;
+    background-position: -294px -47px;
+}
+
+.sprite[data-sprite="Clockwerk"] {
+    width: 32px;
+    height: 32px;
+    background-position: -336px -47px;
+}
+
+.sprite[data-sprite="Crystal_Maiden"] {
+    width: 32px;
+    height: 32px;
+    background-position: -378px -47px;
+}
+
+.sprite[data-sprite="Dark_Seer"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -89px;
+}
+
+.sprite[data-sprite="Dazzle"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -89px;
+}
+
+.sprite[data-sprite="Death_Prophet"] {
+    width: 30px;
+    height: 32px;
+    background-position: -89px -89px;
+}
+
+.sprite[data-sprite="Disruptor"] {
+    width: 32px;
+    height: 32px;
+    background-position: -129px -89px;
+}
+
+.sprite[data-sprite="Doom"] {
+    width: 32px;
+    height: 32px;
+    background-position: -171px -89px;
+}
+
+.sprite[data-sprite="Dragon_Knight"] {
+    width: 32px;
+    height: 32px;
+    background-position: -213px -89px;
+}
+
+.sprite[data-sprite="Drow_Ranger"] {
+    width: 32px;
+    height: 32px;
+    background-position: -255px -89px;
+}
+
+.sprite[data-sprite="Earth_Spirit"] {
+    width: 32px;
+    height: 32px;
+    background-position: -297px -89px;
+}
+
+.sprite[data-sprite="Earthshaker"] {
+    width: 32px;
+    height: 32px;
+    background-position: -339px -89px;
+}
+
+.sprite[data-sprite="Elder_Titan"] {
+    width: 32px;
+    height: 32px;
+    background-position: -381px -89px;
+}
+
+.sprite[data-sprite="Ember_Spirit"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -131px;
+}
+
+.sprite[data-sprite="Enchantress"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -131px;
+}
+
+.sprite[data-sprite="Enigma"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -131px;
+}
+
+.sprite[data-sprite="Faceless_Void"] {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -131px;
+}
+
+.sprite[data-sprite="Gyrocopter"] {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -131px;
+}
+
+.sprite[data-sprite="Huskar"] {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -131px;
+}
+
+.sprite[data-sprite="Invoker"] {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -131px;
+}
+
+.sprite[data-sprite="Io"] {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -131px;
+}
+
+.sprite[data-sprite="Jakiro"] {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -131px;
+}
+
+.sprite[data-sprite="Juggernaut"] {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -131px;
+}
+
+.sprite[data-sprite="Keeper_of_the_Light"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -173px;
+}
+
+.sprite[data-sprite="Kunkka"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -173px;
+}
+
+.sprite[data-sprite="Legion_Commander"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -173px;
+}
+
+.sprite[data-sprite="Leshrac"] {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -173px;
+}
+
+.sprite[data-sprite="Lich"] {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -173px;
+}
+
+.sprite[data-sprite="Lifestealer"] {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -173px;
+}
+
+.sprite[data-sprite="Lina"] {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -173px;
+}
+
+.sprite[data-sprite="Lion"] {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -173px;
+}
+
+.sprite[data-sprite="Lone_Druid"] {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -173px;
+}
+
+.sprite[data-sprite="Luna"] {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -173px;
+}
+
+.sprite[data-sprite="Lycan"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -215px;
+}
+
+.sprite[data-sprite="Magnus"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -215px;
+}
+
+.sprite[data-sprite="Medusa"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -215px;
+}
+
+.sprite[data-sprite="Meepo"] {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -215px;
+}
+
+.sprite[data-sprite="Mirana"] {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -215px;
+}
+
+.sprite[data-sprite="Morphling"] {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -215px;
+}
+
+.sprite[data-sprite="Naga_Siren"] {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -215px;
+}
+
+.sprite[data-sprite="Nature_s_Prophet"] {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -215px;
+}
+
+.sprite[data-sprite="Necrophos"] {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -215px;
+}
+
+.sprite[data-sprite="Night_Stalker"] {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -215px;
+}
+
+.sprite[data-sprite="Nyx_Assassin"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -257px;
+}
+
+.sprite[data-sprite="Ogre_Magi"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -257px;
+}
+
+.sprite[data-sprite="Omniknight"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -257px;
+}
+
+.sprite[data-sprite="Oracle"] {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -257px;
+}
+
+.sprite[data-sprite="Outworld_Devourer"] {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -257px;
+}
+
+.sprite[data-sprite="Phantom_Assassin"] {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -257px;
+}
+
+.sprite[data-sprite="Phantom_Lancer"] {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -257px;
+}
+
+.sprite[data-sprite="Phoenix"] {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -257px;
+}
+
+.sprite[data-sprite="Puck"] {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -257px;
+}
+
+.sprite[data-sprite="Pudge"] {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -257px;
+}
+
+.sprite[data-sprite="Pugna"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -299px;
+}
+
+.sprite[data-sprite="Queen_of_Pain"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -299px;
+}
+
+.sprite[data-sprite="Razor"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -299px;
+}
+
+.sprite[data-sprite="Riki"] {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -299px;
+}
+
+.sprite[data-sprite="Rubick"] {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -299px;
+}
+
+.sprite[data-sprite="Sand_King"] {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -299px;
+}
+
+.sprite[data-sprite="Shadow_Demon"] {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -299px;
+}
+
+.sprite[data-sprite="Shadow_Fiend"] {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -299px;
+}
+
+.sprite[data-sprite="Shadow_Shaman"] {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -299px;
+}
+
+.sprite[data-sprite="Silencer"] {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -299px;
+}
+
+.sprite[data-sprite="Skywrath_Mage"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -341px;
+}
+
+.sprite[data-sprite="Slardar"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -341px;
+}
+
+.sprite[data-sprite="Slark"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -341px;
+}
+
+.sprite[data-sprite="Sniper"] {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -341px;
+}
+
+.sprite[data-sprite="Spectre"] {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -341px;
+}
+
+.sprite[data-sprite="Spirit_Breaker"] {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -341px;
+}
+
+.sprite[data-sprite="Storm_Spirit"] {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -341px;
+}
+
+.sprite[data-sprite="Sven"] {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -341px;
+}
+
+.sprite[data-sprite="Techies"] {
+    width: 30px;
+    height: 31px;
+    background-position: -341px -341px;
+}
+
+.sprite[data-sprite="Templar_Assassin"] {
+    width: 32px;
+    height: 32px;
+    background-position: -381px -341px;
+}
+
+.sprite[data-sprite="Terrorblade"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -383px;
+}
+
+.sprite[data-sprite="Tidehunter"] {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -383px;
+}
+
+.sprite[data-sprite="Timbersaw"] {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -383px;
+}
+
+.sprite[data-sprite="Tinker"] {
+    width: 32px;
+    height: 32px;
+    background-position: -131px -383px;
+}
+
+.sprite[data-sprite="Tiny"] {
+    width: 32px;
+    height: 32px;
+    background-position: -173px -383px;
+}
+
+.sprite[data-sprite="Treant_Protector"] {
+    width: 32px;
+    height: 32px;
+    background-position: -215px -383px;
+}
+
+.sprite[data-sprite="Troll_Warlord"] {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -383px;
+}
+
+.sprite[data-sprite="Tusk"] {
+    width: 32px;
+    height: 32px;
+    background-position: -299px -383px;
+}
+
+.sprite[data-sprite="Undying"] {
+    width: 32px;
+    height: 32px;
+    background-position: -341px -383px;
+}
+
+.sprite[data-sprite="Ursa"] {
+    width: 32px;
+    height: 32px;
+    background-position: -383px -383px;
+}
+
+.sprite[data-sprite="Vengeful_Spirit"] {
+    width: 32px;
+    height: 32px;
+    background-position: -423px -5px;
+}
+
+.sprite[data-sprite="Venomancer"] {
+    width: 32px;
+    height: 32px;
+    background-position: -420px -47px;
+}
+
+.sprite[data-sprite="Viper"] {
+    width: 32px;
+    height: 32px;
+    background-position: -423px -89px;
+}
+
+.sprite[data-sprite="Visage"] {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -131px;
+}
+
+.sprite[data-sprite="Warlock"] {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -173px;
+}
+
+.sprite[data-sprite="Weaver"] {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -215px;
+}
+
+.sprite[data-sprite="Windranger"] {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -257px;
+}
+
+.sprite[data-sprite="Winter_Wyvern"] {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -299px;
+}
+
+.sprite[data-sprite="Witch_Doctor"] {
+    width: 32px;
+    height: 32px;
+    background-position: -423px -341px;
+}
+
+.sprite[data-sprite="Wraith_King"] {
+    width: 32px;
+    height: 32px;
+    background-position: -425px -383px;
+}
+
+.sprite[data-sprite="Zeus"] {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -425px;
+}

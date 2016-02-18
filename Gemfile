@@ -10,6 +10,9 @@ gem 'uglifier', '>= 1.3.0'
 # User Slim for templates
 gem 'slim-rails'
 
+# Sass for stylesheets
+gem 'sass-rails', '~> 4.0.0'
+
 # Font Awesome Icons
 gem 'font-awesome-rails'
 
