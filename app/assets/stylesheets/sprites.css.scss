@@ -8,8 +8,8 @@
 }
 
 .sprite.gray, .sprite.disabled {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
     /*background-image: url(https://dl.dropboxusercontent.com/u/70382015/Doto/spritesheet-grayscale.png);*/
 }
 
