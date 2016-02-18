@@ -1,15 +1,15 @@
 .row
     .col-lg-12
         h2 Hero Details
-        div class="sprite sprite-#{@hero.icon}"
+        div class="sprite" data-sprite="#{@hero.icon}"
 
         h3 Hero Stats
-        p 
-            | Pick Rate: 
+        p
+            | Pick Rate:
             span
                 = @hero.pick_rate
         p
-            | Win Rate: 
+            | Win Rate:
             span
                 = @hero.win_rate
 
